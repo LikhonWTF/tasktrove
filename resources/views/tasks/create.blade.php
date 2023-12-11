@@ -47,9 +47,9 @@
                                                     <select class="form-select @error('status') is-invalid @enderror"
                                                             name="status">
                                                         <option selected value="{{ old('status') }}">Choose...</option>
-                                                        <option value="1">One</option>
-                                                        <option value="2">Two</option>
-                                                        <option value="3">Three</option>
+                                                        <option value="TO_DO">To Do</option>
+                                                        <option value="IN_PROGRESS">In Progress</option>
+                                                        <option value="DONE">Done</option>
                                                     </select>
                                                     @error('status')
                                                     <div class="invalid-feedback">
